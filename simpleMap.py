@@ -21,7 +21,7 @@ while True:
         continue
     print(json_formatted['results'][0]['formatted_address'])
     stop = time.time()
-    # print('Time taken= ', stop - start)
+    print('Time taken= ', stop - start)
 
 # maps.googleapis.com/maps/api/geocode/json?
 # http://py4e-data.dr-chuck.net/json?key=42&
